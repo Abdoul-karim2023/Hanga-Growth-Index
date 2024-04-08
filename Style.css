@@ -154,7 +154,8 @@ footer {
     padding: 10px 0;
 }
 .ppppp{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 
