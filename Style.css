@@ -81,7 +81,7 @@ background-color: #2A337E ;
     height: 3rem;
     font-size: 2rem;
     justify-self: center;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem 0 1.5rem  0rem;
     border: none;
     cursor: pointer;
     background-color: #F5841F;
