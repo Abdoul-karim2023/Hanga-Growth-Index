@@ -210,3 +210,48 @@ footer {
     
     color: white;
   }
+  .powerbi{
+    width:800px;
+    height:500px;
+  }
+  @media (max-width:1025px){
+    .powerbi{
+      width:1025px;
+      height:500px;
+    }
+    .ppppp{
+      display: flex;
+      flex-direction: column;
+  }
+  footer{
+    position: fixed;
+  }
+  }
+  @media (max-width:769px){
+    .powerbi{
+      width:768px;
+      height:500px;
+    }
+    .ppppp{
+      display: flex;
+      flex-direction: column;
+  }
+  .navigation nav ul  {
+   display: none;
+   
+}
+  }
+  @media (max-width:390px){
+    .powerbi{
+      width:390px;
+      height:200px;
+    }
+  #project-title{
+    font-size: 2rem;
+  }
+   footer{
+    font-size: 1.5rem;
+    height: 3rem;
+   }
+
+  }
